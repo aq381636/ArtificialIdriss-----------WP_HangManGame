@@ -1,0 +1,81 @@
+
+body {
+    background-image: url('paper.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+ }
+ 
+   
+
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: rgb(0, 136, 48);
+    font-size: 16px;
+}
+.button:hover, button:hover {
+    background-color: rgb(255, 255, 255)55, 255);
+    transform: scale(1.05);
+ }
+ 
+ .button:active, button:active {
+    background-color: rgb(241, 241, 241);
+    transform: scale(1.02);
+ }
+ 
+
+ @keyframes button-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+ }
+
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    color: rgb(0, 0, 0);
+    margin-bottom: 16px;
+}

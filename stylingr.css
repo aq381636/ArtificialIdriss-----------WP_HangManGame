@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-image: url('paper.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(8, 8, 8);
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+ }
+ h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #080808; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+ }
+ p{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #080808; 
+
+ } 
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+ }
+ 

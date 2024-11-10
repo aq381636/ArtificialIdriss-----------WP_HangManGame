@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-image: url('paper.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+ }
+ 
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ 
+ .box {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border: 2px solid #060606; 
+ }
+ 
+ h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #ff0905; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+ }
+ 
+ /* Button styles */
+ .button, button {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 10px;
+    color: rgb(129, 126, 126);
+    padding: 20px 40px;
+    font-size: 1.5em;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ 
+ .button:hover, button:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+ }
+ 
+ .button:active, button:active {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+ }
+ 
+ /* Animation for the button */
+ @keyframes button-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+ }
+ 
+ .button {
+    animation: button-pulse 2s infinite ease-in-out;
+ }
+ 
+ ::selection {
+    background-color: #fb6161;
+    color: #ffffff;
+ }
+ 
